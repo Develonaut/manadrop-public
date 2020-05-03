@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`configureStore when called should match snapshot 1`] = `
+Object {
+  "persistor": Object {
+    "dispatch": [Function],
+    "flush": [Function],
+    "getState": [Function],
+    "pause": [Function],
+    "persist": [Function],
+    "purge": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+    Symbol(observable): [Function],
+  },
+  "store": Object {
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+    Symbol(observable): [Function],
+  },
+}
+`;

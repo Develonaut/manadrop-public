@@ -1,0 +1,35 @@
+image: node:latest
+
+# Defines the stages of our pipeline process.
+stages:
+  - test
+  - coverage
+  - build
+
+# Cache the node_modules created by npm install.
+cache:
+  paths:
+    - node_modules/
+
+before_script:
+  - npm install
+
+test:
+  stage: test
+  except:
+    - master
+  script:
+    - npm run test
+
+coverage:
+  stage: coverage
+  only:
+    - master
+  script:
+    - npm run coverage
+    - ./node_modules/.bin/codecov --token=$CODECOV
+
+build:
+  stage: build
+  script:
+    - npm run build

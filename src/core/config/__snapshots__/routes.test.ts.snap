@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`routes should export an array of objects containg route props 1`] = `
+Array [
+  Object {
+    "key": "collections",
+    "name": "Collections",
+    "nav": Object {
+      "Component": [Function],
+      "Icon": Object {
+        "icon": Array [
+          512,
+          512,
+          Array [],
+          "f009",
+          "M296 32h192c13.255 0 24 10.745 24 24v160c0 13.255-10.745 24-24 24H296c-13.255 0-24-10.745-24-24V56c0-13.255 10.745-24 24-24zm-80 0H24C10.745 32 0 42.745 0 56v160c0 13.255 10.745 24 24 24h192c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24zM0 296v160c0 13.255 10.745 24 24 24h192c13.255 0 24-10.745 24-24V296c0-13.255-10.745-24-24-24H24c-13.255 0-24 10.745-24 24zm296 184h192c13.255 0 24-10.745 24-24V296c0-13.255-10.745-24-24-24H296c-13.255 0-24 10.745-24 24v160c0 13.255 10.745 24 24 24z",
+        ],
+        "iconName": "th-large",
+        "prefix": "fas",
+      },
+      "props": Object {},
+    },
+    "page": Object {
+      "Component": Object {
+        "$$typeof": Symbol(react.memo),
+        "WrappedComponent": [Function],
+        "compare": null,
+        "displayName": "Connect(CollectionPresentation)",
+        "type": [Function],
+      },
+      "props": Object {},
+    },
+    "path": "/collections",
+    "to": "/collections",
+  },
+]
+`;
