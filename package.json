@@ -29,7 +29,7 @@
     "amplitude-js": "^5.2.2",
     "aws-amplify": "^1.1.32",
     "aws-amplify-react": "^2.3.11",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "babel-register": "^6.26.0",
     "classnames": "^2.2.6",
     "connected-react-router": "^6.5.2",
